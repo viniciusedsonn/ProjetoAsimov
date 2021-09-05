@@ -1,0 +1,122 @@
+
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            max-width: auto;
+            border-radius: 50%;
+            animation-name: profile-capa;
+	        animation-duration: 6s;
+        }
+
+        .icones {
+            padding-left: 8px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c
+        }
+
+        .paragrafoBrancos {
+            color: white !important;
+            text-align: justify;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: black !important;
+        }
+
+        .corPrimaria {
+            background-color: #4D736C;
+        }
+
+        .itemMenu {
+            color: white;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .bloco {
+            float: left;
+            width: 30%;
+            margin: 20px 1.5333333%;
+            height: 300px;
+            margin-top: 30px;
+        }
+
+        .cv-pic {
+            float: right;
+            width: 280px;
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        .contato {
+            padding-bottom: 50px;
+        }
+        .textocapa{
+            animation-name: titulo-capa;
+		    animation-duration: 2s;
+        }
+
+        @keyframes titulo-capa {
+        0% {opacity: 0; transform: translate(20px,0px)}
+        100% {opacity: 1; transform: translate(0px,0px)}
+} 
+        @keyframes navegacao {
+            0% {opacity: 0;}
+            50% {opacity: 0;}
+            100% {opacity: 1}
+        } 
+
+        @keyframes profile-capa {
+            0% {opacity: 0; transform: translate(0px,20px)}
+            100% {opacity: 1; transform: translate(0px,0px)}
+        }
+        
+        .bloco img {
+        max-width: 100%;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        }
+        .bloco:hover img {
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        }
+
+        nav#menu a:hover {
+        background-color: #4d736ca1;
+        transition: 1s;
+        border-radius: 30%;
+        }  
+
+        
